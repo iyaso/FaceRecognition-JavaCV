@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<TabPane xmlns:fx="http://javafx.com/fxml" >
+    <tabs>
+        <Tab text="Camera">
+            <content>
+                <fx:include fx:id="cameraTabPage" source="CameraFaceDetector.fxml"/>
+            </content>
+        </Tab>
+        <Tab text="Image File">
+            <content>
+                <fx:include fx:id="imageTabPage" source="ImageFaceDetector.fxml"/>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>
